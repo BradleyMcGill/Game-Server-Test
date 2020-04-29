@@ -16,24 +16,31 @@ def buildUser():
     user['password'] = input()
     user['rank'] = 'Member'
     user['scores'] = []
-    return user
+    finish(user['name'],user)
 
-def finish(fileName):
+def finish(fileName,user):
     with open(path+fileName+'.json','w') as file:
         json.dump(user,file,indent=4)
 
 
 ##user = buildUser()
-##addScore(1,1)
-##finish(user['name'])
 
 fileName = input()
 
 with open(path+fileName+'.json') as file:
     user = json.load(file)
 
-for i in range(0,100):
-    addScore(ri(0,100),rc(['English','Maths','Science','Geography']))
+for i in range(0,10):
+    addScore(ri(0,100),'English')
 
-finish(fileName)
+for i in range(0,100):
+    addScore(ri(0,100),'Maths')
+
+for i in range(0,50):
+    addScore(ri(0,100),'Geography')
+
+for i in range(0,30):
+    addScore(ri(0,100),'Science')
+
+finish(fileName,user)
 

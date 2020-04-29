@@ -356,6 +356,7 @@
             $("#rank").html(rank);
 
             createGraph(playerData.scores);
+            createDonut(playerData.scores);
             buildTable(scores);
 
         }
@@ -394,6 +395,48 @@
                 hideHover: true,
                 resize: true,
                 gridLineColor: '#E5E5E5'
+            });
+        }
+
+        function iterateThroughElements(list, lookFor) {
+            for (var i = 0; i < list.length; i++) {
+                if (list[i] == lookFor) {
+                    return true
+                }
+            }
+            return false
+        }
+
+        function createDonut(scores) {
+
+            var wibble = [];
+            var done = [];
+
+
+            for (var i = 0; i < scores.length; i++) {
+                if (iterateThroughElements(done, scores[i].topic) == false) {
+                    wibble.push({
+                        label: scores[i].topic,
+                        value: 1
+                    })
+                    done.push(scores[i].topic)
+                } else {
+                    for (var u = 0; u, wibble.length; u++) {
+                        if (wibble[u].label == scores[i].topic) {
+                            wibble[u].value += 1;
+                            break;
+                        }
+                    }
+                }
+            };
+
+            console.log(wibble);
+
+            Morris.Donut({
+                element: 'dashboard-donut-1',
+                data: wibble,
+                colors: ['#33414E', '#1caf9a', '#FEA223'],
+                resize: true
             });
         }
 
