@@ -3420,7 +3420,7 @@ background: #1caf9a !important;
   text-transform: uppercase;
 }
 .widget .widget-subtitle {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   margin-bottom: 5px;
   line-height: 15px;
@@ -3433,7 +3433,7 @@ background: #1caf9a !important;
   font-family: arial;
 }
 .widget .widget-big-int {
-  font-size: 42px;
+  font-size: 48px;
   line-height: 45px;
   font-weight: 300;
 }

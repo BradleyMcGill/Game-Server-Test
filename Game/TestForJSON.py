@@ -1,8 +1,9 @@
 import json, os
 from datetime import datetime
 from random import randint as ri
+from random import choice as rc
 
-path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'\Server\\html\\'
+path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'\Server\\html\\Users\\'
 
 def addScore(score,topic,date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
     user['scores'].append({'date':date,
@@ -13,6 +14,7 @@ def buildUser():
     user = {}
     user['name'] = input()
     user['password'] = input()
+    user['rank'] = 'Member'
     user['scores'] = []
     return user
 
@@ -24,16 +26,14 @@ def finish(fileName):
 ##user = buildUser()
 ##addScore(1,1)
 ##finish(user['name'])
-##
-##print(path)
 
 fileName = input()
 
 with open(path+fileName+'.json') as file:
     user = json.load(file)
 
-for i in range(0,ri(0,10)):
-    addScore(ri(0,100),ri(0,10))
+for i in range(0,100):
+    addScore(ri(0,100),rc(['English','Maths','Science','Geography']))
 
 finish(fileName)
 
