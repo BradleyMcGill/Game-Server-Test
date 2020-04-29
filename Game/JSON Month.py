@@ -5,7 +5,8 @@ from random import choice as rc
 
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'\Server\\html\\Users\\'
 
-def addScore(score,topic,date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
+def addScore(score,topic,modifier = 0):
+    date = (datetime.datetime.now()+ datetime.timedelta(days=modifier)).strftime("%Y-%m-%d %H:%M:%S")
     user['scores'].append({'date':date,
                            'score':score,
                            'topic':topic})
@@ -23,24 +24,18 @@ def finish(fileName,user):
         json.dump(user,file,indent=4)
 
 
-##user = buildUser()
+def simulateDays(days):
+    for i in range(0,days):
+        for z in range(ri(0,20)):
+            for subject in ['Maths','English','Science','Geography']:
+                if ri(0,3) == 0:
+                    addScore(ri(0,100),subject,i)
 
 fileName = input()
 
 with open(path+fileName+'.json') as file:
     user = json.load(file)
 
-for i in range(0,ri(0,10)):
-    addScore(ri(0,100),'English')
-
-for i in range(0,ri(0,100)):
-    addScore(ri(0,100),'Maths')
-
-for i in range(0,ri(0,50)):
-    addScore(ri(0,100),'Geography')
-
-for i in range(0,ri(0,30)):
-    addScore(ri(0,100),'Science')
+simulateDays(30)
 
 finish(fileName,user)
-

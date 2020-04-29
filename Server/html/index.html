@@ -174,8 +174,9 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="panel-title-box">
-                                    <h3>Visitors</h3>
-                                    <span>Visitors (last month)</span>
+                                    <h3>Games played</h3>
+                                    <span>Hover over a segment to see exact count</span>
+                                    <span>Hover over a segment to see exact count</span>
                                 </div>
                                 <ul class="panel-controls" style="margin-top: 2px;">
                                     <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
@@ -357,7 +358,62 @@
 
             createGraph(playerData.scores);
             createDonut(playerData.scores);
+            createLine(playerData.scores);
             buildTable(scores);
+
+        }
+
+        function createLine(data) {
+
+            var wibble = [];
+            var done = [];
+            var topics = [];
+
+
+            for (var i = 0; i < scores.length; i++) {
+                if (iterateThroughElements(done, scores[i].date) == false) {
+                    var topic = scores[i].topic
+                    wibble.push({
+                        date: scores[i].date,
+                        [topic]: 1
+                    })
+                    done.push(scores[i].date)
+                } else {
+                    for (var u = 0; u < wibble.length; u++) {
+                        if (scores[i].date == wibble[u].date) {
+                            if (scores[i].topic in wibble[u]) {
+                                wibble[u][scores[i].topic] += 1
+                            } else {
+                                wibble[u][scores[i].topic] = 1
+                            }
+                        }
+                    }
+                }
+            };
+
+            for (var i = 0; i < scores.length; i++) {
+                if (iterateThroughElements(topics,scores[i].topic) == false) {
+                    topics.push(scores[i].topic)
+                }
+            }
+
+            console.log(topics);
+
+            Morris.Area({
+                element: 'dashboard-line-1',
+                data: wibble,
+                xkey: 'date',
+                ykeys: topics,
+                labels: topics,
+                resize: true,
+                hideHover: true,
+                xLabels: 'day',
+                gridTextSize: '10px',
+                lineColors: ['#1caf9a', '#33414E'],
+                gridLineColor: '#E5E5E5'
+            });  
+
+
 
         }
 
@@ -429,8 +485,6 @@
                     }
                 }
             };
-
-            console.log(wibble);
 
             Morris.Donut({
                 element: 'dashboard-donut-1',
