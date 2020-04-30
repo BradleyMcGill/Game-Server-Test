@@ -14,7 +14,7 @@ def addScore(score,topic,modifier = 0):
 def buildUser():
     user = {}
     user['name'] = input()
-    user['password'] = input()
+    user['password'] = 'pass'
     user['rank'] = 'Member'
     user['scores'] = []
     finish(user['name'],user)
@@ -29,7 +29,9 @@ def simulateDays(days):
         for z in range(ri(0,20)):
             for subject in ['Maths','English','Science','Geography']:
                 if ri(0,3) == 0:
-                    addScore(ri(0,100),subject,i)
+                    addScore(ri(50,100) + (ri(0,10) / ri(1,10)),subject,i)
+
+##buildUser()
 
 fileName = input()
 

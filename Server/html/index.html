@@ -114,14 +114,14 @@
                     <div class="col-md-3">
 
                         <!-- START WIDGET MESSAGES -->
-                        <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                        <div class="widget widget-default widget-item-icon">
                             <div class="widget-item-left">
                                 <span class="fa fa-envelope"></span>
                             </div>
                             <div class="widget-data">
-                                <div class="widget-int num-count">Empty Display</div>
-                                <div class="widget-title">Empty Display</div>
-                                <div class="widget-subtitle">Empty Display</div>
+                                <div class="widget-int num-count">Playing Since</div>
+                                <div id="joinDate" class="widget-title"></div>
+                                <div id="timeSinceJoin" class="widget-subtitle"></div>
                             </div>
                         </div>
                         <!-- END WIDGET MESSAGES -->
@@ -130,14 +130,14 @@
                     <div class="col-md-3">
 
                         <!-- START WIDGET REGISTRED -->
-                        <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
+                        <div class="widget widget-default widget-item-icon">
                             <div class="widget-item-left">
                                 <span class="fa fa-user"></span>
                             </div>
                             <div class="widget-data">
-                                <div class="widget-int num-count">Empty Display</div>
-                                <div class="widget-title">Empty Display</div>
-                                <div class="widget-subtitle">Empty Display</div>
+                                <div id="firstPlace" class="widget-int num-count"></div>
+                                <div id="secondPlace" class="widget-title"></div>
+                                <div id="thirdPlace" class="widget-subtitle"></div>
                             </div>
                         </div>
                         <!-- END WIDGET REGISTRED -->
@@ -349,11 +349,15 @@
             var averageScore = calculateAverageScore(scores)
             var highscore = getHighestScore(scores)
 
+            var timeSinceJoin = String(moment().diff(playerData.joinDate.split(' ')[0], 'days')) + ' days since join'
+
             $("#user-name").html(playerData.name);
             $("#numberOfQuizes").html(scores.length);
             $("#averageScore").html(averageScore);
             $("#highscore").html(highscore);
             $("#rank").html(rank);
+            $("#joinDate").html(playerData.joinDate.split(' ')[0]);
+            $("#timeSinceJoin").html(timeSinceJoin);
 
             createGraph(playerData.scores);
             createDonut(playerData.scores);
@@ -396,8 +400,6 @@
                 }
             }
 
-            console.log(topics);
-
             Morris.Area({
                 element: 'dashboard-line-1',
                 data: wibble,
@@ -411,9 +413,6 @@
                 lineColors: ['#1caf9a', '#33414E'],
                 gridLineColor: '#E5E5E5'
             });  
-
-
-
         }
 
         function buildTable(data) {
@@ -493,12 +492,21 @@
             });
         }
 
+        function highscores(data) {
+            $('#firstPlace').append(data.first);
+            $('#secondPlace').append(data.second);
+            $('#thirdPlace').append(data.third);
+
+            console.log(data.first);
+        }
+
         $(document).ready(function () {
 
             var username = getUrlParameter('search');
             var password = getUrlParameter('password');
 
-            $.getJSON('Users\\'+username + ".json", setUpPage);
+            $.getJSON('Users\\' + username + ".json", setUpPage);
+            $.getJSON('Highscores.json', highscores);
         });
     </script>
 </body>
