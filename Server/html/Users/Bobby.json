@@ -1,0 +1,1203 @@
+{
+    "name": "Bobby",
+    "password": "holder",
+    "rank": "Member",
+    "scores": [
+        {
+            "date": "2020-04-30 12:39:26",
+            "score": 79.5,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-04-30 12:39:26",
+            "score": 76.22222222222223,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-04-30 12:39:26",
+            "score": 84.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-04-30 12:39:26",
+            "score": 98.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 92.66666666666667,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 70.11111111111111,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 81.6,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 68.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 84.83333333333333,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 86.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 67.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-01 12:39:26",
+            "score": 75.5,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-02 12:39:26",
+            "score": 66.33333333333333,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-02 12:39:26",
+            "score": 98.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 101.33333333333333,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 81.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 97.2,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 66.2,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 56.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 80.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-03 12:39:26",
+            "score": 85.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 97.5,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 92.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 61.125,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 51.75,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 62.2,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 59.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 85.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 56.333333333333336,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 51.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 94.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 89.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 63.625,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 91.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 64.25,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 78.14285714285714,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-04 12:39:26",
+            "score": 79.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-05 12:39:26",
+            "score": 94.2,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 52.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 61.888888888888886,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 89.66666666666667,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 67.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 102.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-07 12:39:26",
+            "score": 64.375,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 98.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 80.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 100.6,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 80.625,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 72.25,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 73.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-08 12:39:26",
+            "score": 69.66666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 52.8,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 98.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 97.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 55.142857142857146,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 59.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 75.28571428571429,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 55.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 89.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-09 12:39:26",
+            "score": 87.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-11 12:39:26",
+            "score": 91.28571428571429,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-11 12:39:26",
+            "score": 81.77777777777777,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-11 12:39:26",
+            "score": 69.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-11 12:39:26",
+            "score": 79.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 63.125,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 89.375,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 103.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 58.285714285714285,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 85.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 63.6,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 106.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 82.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 65.66666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 73.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 92.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 53.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 83.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 92.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 89.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-12 12:39:26",
+            "score": 74.28571428571429,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 58.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 63.25,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 74.14285714285714,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 86.8,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 68.88888888888889,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 59.666666666666664,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 95.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 54.6,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 100.66666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 80.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 82.25,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 86.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 56.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 77.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 74.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 72.5,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 76.2,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 89.5,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-13 12:39:26",
+            "score": 92.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 98.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 69.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 86.42857142857143,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 57.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 90.4,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 82.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 93.6,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 96.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-14 12:39:26",
+            "score": 98.57142857142857,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 100.33333333333333,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 99.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 53.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 85.16666666666667,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 73.2,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 73.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 56.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 92.8,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 58.9,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 51.9,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 88.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 105.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 88.6,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 56.25,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 88.14285714285714,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 75.8,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 61.111111111111114,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 61.6,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-15 12:39:26",
+            "score": 55.4,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-16 12:39:26",
+            "score": 101.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-16 12:39:26",
+            "score": 59.25,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 99.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 77.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 65.33333333333333,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 95.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 77.25,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 90.2,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 91.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 91.7,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-17 12:39:26",
+            "score": 94.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 99.2,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 93.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 95.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 64.33333333333333,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 91.875,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 54.42857142857143,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 70.25,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 96.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 64.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 92.88888888888889,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 82.33333333333333,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 54.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 85.33333333333333,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-18 12:39:26",
+            "score": 64.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 77.83333333333333,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 65.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 86.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 80.14285714285714,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 55.166666666666664,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 78.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 69.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 91.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 99.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-19 12:39:26",
+            "score": 94.75,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 94.4,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 74.875,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 96.8,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 61.4,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 99.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 92.42857142857143,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 55.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 106.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 100.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-20 12:39:26",
+            "score": 87.25,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 60.666666666666664,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 86.66666666666667,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 60.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 57.55555555555556,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 80.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-21 12:39:26",
+            "score": 65.16666666666667,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 66.66666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 100.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 74.66666666666667,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 70.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 73.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 102.33333333333333,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 84.75,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 73.5,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 100.28571428571429,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 82.28571428571429,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 73.88888888888889,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 67.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-22 12:39:26",
+            "score": 95.66666666666667,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 97.66666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 76.71428571428571,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 63.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 59.6,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 72.875,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-23 12:39:26",
+            "score": 90.5,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-24 12:39:26",
+            "score": 100.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-24 12:39:26",
+            "score": 71.2,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-24 12:39:26",
+            "score": 53.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-24 12:39:26",
+            "score": 53.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 100.14285714285714,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 91.7,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 92.1,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 89.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 78.125,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 67.14285714285714,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 53.6,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-25 12:39:26",
+            "score": 101.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 99.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 51.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 64.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 87.2,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 95.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 80.5,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 72.11111111111111,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 81.8,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 81.66666666666667,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 75.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 95.16666666666667,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-26 12:39:26",
+            "score": 70.0,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 52.25,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 98.66666666666667,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 91.33333333333333,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 88.66666666666667,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 79.8,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 54.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 56.2,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 55.9,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 53.57142857142857,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 65.5,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 85.8,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 74.6,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 90.66666666666667,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-27 12:39:26",
+            "score": 52.0,
+            "topic": "English"
+        },
+        {
+            "date": "2020-05-28 12:39:26",
+            "score": 54.5,
+            "topic": "Maths"
+        },
+        {
+            "date": "2020-05-28 12:39:26",
+            "score": 79.0,
+            "topic": "Geography"
+        },
+        {
+            "date": "2020-05-28 12:39:26",
+            "score": 65.0,
+            "topic": "Science"
+        },
+        {
+            "date": "2020-05-28 12:39:26",
+            "score": 54.5,
+            "topic": "Maths"
+        }
+    ],
+    "joinDate": "2020-04-30 12:39:15"
+}

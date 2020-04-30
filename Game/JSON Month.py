@@ -14,9 +14,10 @@ def addScore(score,topic,modifier = 0):
 def buildUser():
     user = {}
     user['name'] = input()
-    user['password'] = 'pass'
+    user['password'] = 'holder'
     user['rank'] = 'Member'
     user['scores'] = []
+    user['joinDate'] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     finish(user['name'],user)
 
 def finish(fileName,user):
